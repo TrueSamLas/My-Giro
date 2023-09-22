@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #000;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+ul {
+    list-style: none;
+}
+
+.wrapper{
+    padding: 0 32.5px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header > .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+}
+
+header h1 {
+    color: #000;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+header ul {
+    display: flex;
+    gap: 33px;
+    font-size: 14px;
+}
+
+.banner {
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    background-image: url("../img/scooter.png");
+    height: 877px;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0 0 0 10000px rgba(0, 0, 0, 0.6);
+    line-height: 1.7em;
+}
+
+.banner h2 {
+    margin-bottom: 39px;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.banner button {
+    width: 133px;
+    height: 35px;
+    border-radius: 10px;
+    background: #FFF;
+    color: #000;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    border: none;
+    margin-top: 65px;
+    cursor: pointer;
+}
+
+.about-us {
+    padding: 60px 0;
+}
+
+.about-us h2 {
+    margin-bottom: 50px;
+    color: #000;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.about-us p {
+    margin-top: 20px;
+}
+
+.catalog {
+    background-color: #EEF2E3;
+    padding: 60px 0;
+}
+
+.catalog-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.catalog-header h2 {
+    color: #000;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.catalog-header ul {
+    display: flex;
+    gap: 13px;
+}
+
+.catalog-header a {
+    display: inline-block;
+    padding: 9px 13px;
+    border-radius: 15px;
+}
+
+.catalog-header a.active {
+    background-color: #F90;
+    color: #fff;
+}
+
+.scooters {
+    display: flex;
+    justify-content: space-between;
+}
+
+.scooters .item {
+    background: #FFF;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.50);
+    width: 261px;
+    position: relative;
+    padding: 25px 0;
+    text-align: center;
+}
+
+.scooters .item .tag {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    padding: 6px 20px 6px 13px;
+    background-color: #F90;
+    position: absolute;
+    left: 0;
+    top: 16px;
+    border-radius: 0 100px 100px 0;
+}
+
+.scooters .item img {
+    margin-bottom: 13px;
+}
+
+.scooters .item h3 {
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    margin-bottom: 13px;
+    padding: 0 25px;
+    text-align: left;
+}
+.scooters .item .price {
+    padding: 0 25px;
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    display: block;
+    text-align: left;
+}
+
+.info {
+    padding: 60px 0;
+}
+
+.info h2 {
+    color: #000;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+.info .hints {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info .hints .hint {
+    background-image: url("../img/1 921.png");
+    width: 261px;
+    height: 261px;
+    box-shadow: inset 0 0 0 10000px rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info .hints .hint h4 {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.7em;
+}
+
+footer {
+    background-color: #EEF2E3;
+    padding: 77px 0;
+    color: #8191A6;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+footer > .wrapper {
+    display: flex;
+    gap: 42px;
+}
+
+footer > .wrapper > div {
+    flex: 0 0 168px;
+}
+
+.w-50 {
+    flex: 1 0 540px !important;
+}
+
+footer p {
+    margin-bottom: 23px;
+    max-width: 354px;
+}
+
+footer p:last-child {
+    margin-bottom: 0;
+    margin-top: 50px;
+}
+
+footer h5 {
+    color: #303842;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+footer a {
+    color: #8191A6;
+    display: inline-block;
+    margin-bottom: 9px;
+}
